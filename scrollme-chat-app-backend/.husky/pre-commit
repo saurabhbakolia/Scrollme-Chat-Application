@@ -1,0 +1,2 @@
+# Run linting
+npm run lint

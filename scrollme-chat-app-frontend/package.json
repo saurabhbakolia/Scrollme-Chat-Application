@@ -1,0 +1,69 @@
+{
+	"name": "scrollme-chat-app",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@chakra-ui/icons": "^2.1.1",
+		"@chakra-ui/react": "^2.8.2",
+		"@emotion/react": "^11.13.3",
+		"@emotion/styled": "^11.13.0",
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"firebase": "^10.13.1",
+		"framer-motion": "^11.5.4",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-router-dom": "^6.26.1",
+		"react-scripts": "5.0.1",
+		"scrollme-chat-app": "file:",
+		"socket.io-client": "^4.7.5",
+		"styled-components": "^6.1.13",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"format": "biome format",
+		"lint": "biome lint",
+		"prepare": "husky install",
+		"cz": "cz",
+		"commit": "cz",
+		"precommit": "npm run lint",
+		"commit-msg": "npx commitlint --edit $1"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.8.3",
+		"@commitlint/cli": "^19.4.1",
+		"@commitlint/config-conventional": "^19.4.1",
+		"commitizen": "^4.3.0",
+		"cz-customizable": "^7.2.1",
+		"husky": "^8.0.0",
+		"lint-staged": "^15.2.10"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-customizable"
+		}
+	}
+}

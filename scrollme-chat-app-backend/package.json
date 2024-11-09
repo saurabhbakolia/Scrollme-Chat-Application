@@ -1,0 +1,40 @@
+{
+  "name": "scrollme-chat-app-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js",
+    "prepare": "husky",
+    "lint": "biome lint",
+    "commit": "cz"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-customizable"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.4.0",
+    "morgan": "^1.10.0",
+    "scrollme-chat-app-backend": "file:",
+    "socket.io": "^4.7.5",
+    "winston": "^3.14.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
+    "biome": "^0.3.3",
+    "commitizen": "^4.3.0",
+    "cz-customizable": "^7.2.1",
+    "husky": "^9.1.5",
+    "nodemon": "^3.1.4"
+  }
+}
